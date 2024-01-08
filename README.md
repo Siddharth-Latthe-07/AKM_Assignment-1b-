@@ -22,6 +22,6 @@
   - Decrypt the File:
     - Use OpenSSL to decrypt the encrypted file using the shared symmetric key.
 
-      Save the decrypted content to a new file.
+      Save the decrypted content to a new file. (Decryption syntax:- openssl enc -d -aes-256-cbc -in sensitive_data_encrypted.txt -out sensitive_data_decrypted.txt -pass file:symmetric_key.txt)
 
   <img width="605" alt="Screenshot 2024-01-08 194737" src="https://github.com/Siddharth-Latthe-07/AKM_Assignment-1b-/assets/121747151/c57b05e5-c37d-44d4-9584-114e0dea7b81">
